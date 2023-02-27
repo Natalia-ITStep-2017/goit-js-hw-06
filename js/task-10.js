@@ -30,7 +30,6 @@ function destroyBoxes() {
 
 createBtnEl.addEventListener("click", () => {
   const amount = inputEl.value;
-  console.log(amount);
   createBoxes(amount);
 });
 
